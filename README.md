@@ -75,7 +75,7 @@ To merge locally : when you've commited eveything you wanted and your feature is
 git switch main
 ```
 
-then merge into it the branch you were working on :
+then merge the branch you were workingon into the main branch :
 
 ```bash
 git merge myNewBigFeature
