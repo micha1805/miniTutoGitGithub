@@ -221,37 +221,9 @@ To merge the developer responsible of merging has to click the 'merge pull reque
 If there are no conflicts : Hurray ! You have merged to the main branch !
 
 
-If there are conflicts :
+If there are conflicts, you can solve them on github. You will have to change each file with a conflict (check in the "solo work" chapter how to modify a file with a conflict), and when it's done commit on github with the green button and you're done !
 
-```bash
-git pull origin main
-```
-Then in the code you have locally go to the files with conflict and resolve them.
-
-
-Once the conflicts are resolved :
-
-Stage your changes :
-```bash
-git add .
-```
-Commit them :
-
-```bash
-git commit -m 'conflicts solved'
-```
-
-then push them :
-
-```bash
-git push origin main
-```
-
-
-
-
-
-Once everything is pushed : every member can pull the new version :
+Now everyone can pull the latest version of the main branch with all the conflicts solved :
 
 ```bash
 git pull origin main
