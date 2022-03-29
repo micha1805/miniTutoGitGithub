@@ -2,6 +2,8 @@
 
 ## solo work
 
+As a general information, if you work alone you can obviously still have a github repo for your project ! Just don't forget to push your code regularly (and pull if you merge on github and not locally).
+
 ### initialize your project
 
 initialize your git in your project's folder :
@@ -113,10 +115,27 @@ git commit -m 'conflicts solved !'
 You're done !
 
 
-
-
 #### Small changes
 
+If you want to do small changes like typos etc. you can stay in your main branch.
+
+You can still do bigger changes in your main branch if you really want to, but as a general rule it's bad practice.
+
+
+So you stay in your `main` branch and you do some modifications, then when it's done select the modified files you want in your snapshot (here it's everything, which is what you will very often do):
+
+```bash
+git add .
+```
+
+
+Then take the snapshot of your code, which is the commit :
+
+```bash
+git commit -m "I did this and this and that"
+```
+
+Then you're done !
 
 
 ## team work
